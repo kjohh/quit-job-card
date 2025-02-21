@@ -278,7 +278,7 @@ export default function QuitJobCard() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
-            className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
+            className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
           >
             <div className="bg-white rounded-lg p-8 text-center max-w-md w-full mx-4">
               <h3 className="text-3xl font-bold mb-4 text-red-600">🎉 恭喜達成極限！ 🎉</h3>
